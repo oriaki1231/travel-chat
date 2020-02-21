@@ -20,27 +20,52 @@
         font-family: "Ravi Prakash", cursive;
         font-size: 30px;
         padding-left: 15px;
+
+        .Happytravel{
+          text-decoration: none;
+          color: rgb(243, 56, 31);
+        }
       }
 
       &__hotel{
         margin-left: 50px;
+        .hotel{
+          text-decoration: none;
+          color: black;
+        }
       }
 
       &__chcket{
         margin-left: 50px;
+        .chcket{
+          text-decoration: none;
+          color: black;
+        }
       }
 
       &__tour{
         margin-left: 50px;
+        .tour{
+          text-decoration: none;
+          color: black;
+        }
       }
 
       &__user-name{
         margin-left: 520px;
+        .username{
+          text-decoration: none;
+          color: black;
+        }
       }
 
       &__logout{
         margin-left: auto;
         padding-right: 15px;
+        .logout{
+          text-decoration: none;
+          color: black;
+        }
       }
     }
   }
@@ -58,6 +83,11 @@
       
       &__content{
         font-size: 50px;
+        height: 200px;
+        width: 100%;
+        background-image: ;
+        text-align: center;
+        line-height: 200px;
       }
 
       .rank-box1{

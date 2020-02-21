@@ -2,17 +2,23 @@
   .header
     .header__bar
       .header__bar__title
-        Happy travel
+        = link_to root_path, class:"Happytravel" do
+          Happytravel
       .header__bar__hotel
-        ホテル
+        = link_to root_path, class:"hotel" do
+          ホテル
       .header__bar__chcket
-        航空券
+        = link_to root_path, class:"chcket" do
+          航空券
       .header__bar__tour
-        ツアー
+        = link_to root_path, class:"tour" do
+          ツアー
       .header__bar__user-name
-        ユーザー名
+        = link_to root_path, class:"username" do
+          ユーザー名
       .header__bar__logout
-        ログアウト
+        = link_to root_path, class:"logout" do
+          ログアウト
   .main
     .main__box
       .main__box__content
