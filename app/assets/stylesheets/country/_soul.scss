@@ -14,12 +14,12 @@
   &__right{
     width: 35%;
     height: 100%;
-    background-color: yellowgreen;
+    background-color: lightgreen;
     border-left: 3px solid black;
     &__soul{
       height: 40px;
       width: 100%;
-      background-color: rgb(167, 224, 250);
+      background-color: lightblue;
       text-align: center;
       line-height: 40px;
       font-weight: bold;
@@ -31,45 +31,8 @@
       background-color: white;
       margin: auto;
       margin-top: 15px;
+      overflow: scroll;
       
-    }
-    .form {
-      background-color: #DDDDDD;
-      box-sizing: border-box;
-      height: 60px;
-      width: calc(100% - 40px);
-      padding: 15px 10px 10px 10px;
-      margin: auto;
-      &__message {
-        border: none;
-        float: left;
-        height: 30px;
-        width: calc(100% - 120px);
-        padding: 0 5px 0 5px;
-      }
-      &__mask {
-        background-color: white;
-        float: left;
-        height: 30px;
-        padding: 0 10px 0 10px;
-        
-        &__image {
-          font-size: 20px;
-          line-height: 30px;
-        }
-        .hidden {
-          display: none;
-        }
-      }
-      &__submit {
-        background-color: lightblue;
-        border: none;
-        color: white;
-        float: right;
-        font-size: 16px;
-        height: 30px;
-        padding: 0 15px;
-      }
     }
   }
 }
