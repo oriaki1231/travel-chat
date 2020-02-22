@@ -1,0 +1,18 @@
+.wrapper
+  = render "tops/header"
+  .contents
+    .contents__left
+      .left-box
+    .contents__right
+      .contents__right__soul
+        🇰🇷ソウル現地でのつぶやき🇰🇷
+      .contents__right__main
+      .form
+        %form
+          %input.form__message
+          .form__mask
+            %label.form__mask__image
+              = icon('fa','image',class: 'icon')
+              %input.hidden{type: 'file'}
+          %input.form__submit{type: 'submit', value: 'Send'}
+  = render "tops/footer"

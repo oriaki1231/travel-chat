@@ -1,6 +1,6 @@
-class TopsController < ApplicationController
+class SoulMessagesController < ApplicationController
   def index
-
+    
   end
 
   def new

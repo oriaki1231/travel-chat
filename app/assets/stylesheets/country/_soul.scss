@@ -1,0 +1,72 @@
+.contents{
+  height: 100%;
+  width: 100%;
+  background-color: #FFFFEE;
+  padding-top: 60px;
+  display: flex;
+
+  &__left{
+    width: 65%;
+    height: 100%;
+    background-color: white;
+  }
+
+  &__right{
+    width: 35%;
+    height: 100%;
+    background-color: yellowgreen;
+    border-left: 3px solid black;
+    &__soul{
+      height: 40px;
+      width: 100%;
+      background-color: rgb(167, 224, 250);
+      text-align: center;
+      line-height: 40px;
+      font-weight: bold;
+      font-size: 20px;
+    }
+    &__main{
+      height: 500px;
+      width: calc(100% - 40px);
+      background-color: white;
+      margin: auto;
+      margin-top: 15px;
+      
+    }
+    .form {
+      background-color: #DDDDDD;
+      box-sizing: border-box;
+      height: 90px;
+      padding: 20px 50px 20px 40px;
+      &__message {
+        border: none;
+        float: left;
+        height: 50px;
+        width: calc(100% - 150px);
+      }
+      &__mask {
+        background-color: white;
+        float: left;
+        height: 50px;
+        padding-right: 10px;
+        &__image {
+          font-size: 20px;
+          line-height: 50px;
+        }
+        .hidden {
+          display: none;
+        }
+      }
+      &__submit {
+        background-color: lightblue;
+        border: none;
+        color: white;
+        float: right;
+        font-size: 16px;
+        height: 50px;
+        margin-left: 15px;
+        padding: 0 30px;
+      }
+    }
+  }
+}
