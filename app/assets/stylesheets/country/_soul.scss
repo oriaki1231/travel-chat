@@ -26,7 +26,7 @@
       font-size: 20px;
     }
     &__main{
-      height: 500px;
+      height: 525px;
       width: calc(100% - 40px);
       background-color: white;
       margin: auto;
@@ -36,22 +36,26 @@
     .form {
       background-color: #DDDDDD;
       box-sizing: border-box;
-      height: 90px;
-      padding: 20px 50px 20px 40px;
+      height: 60px;
+      width: calc(100% - 40px);
+      padding: 15px 10px 10px 10px;
+      margin: auto;
       &__message {
         border: none;
         float: left;
-        height: 50px;
-        width: calc(100% - 150px);
+        height: 30px;
+        width: calc(100% - 120px);
+        padding: 0 5px 0 5px;
       }
       &__mask {
         background-color: white;
         float: left;
-        height: 50px;
-        padding-right: 10px;
+        height: 30px;
+        padding: 0 10px 0 10px;
+        
         &__image {
           font-size: 20px;
-          line-height: 50px;
+          line-height: 30px;
         }
         .hidden {
           display: none;
@@ -63,9 +67,8 @@
         color: white;
         float: right;
         font-size: 16px;
-        height: 50px;
-        margin-left: 15px;
-        padding: 0 30px;
+        height: 30px;
+        padding: 0 15px;
       }
     }
   }
